@@ -7,13 +7,31 @@
   "author": "iwfan <i.wangfancn@gmail.com>",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
   },
   "devDependencies": {
     "@babel/core": "^7.11.0",
     "@babel/preset-typescript": "^7.10.4",
+    "@testing-library/dom": "^7.22.0",
+    "@testing-library/jest-dom": "^5.11.2",
+    "@types/jest": "^26.0.9",
+    "@types/react": "^16.9.44",
+    "jest": "^26.2.2",
     "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.4",
     "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
   }
 }

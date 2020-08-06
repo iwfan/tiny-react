@@ -1,8 +1,4 @@
-console.log(' --- ');
-
-const Test = {
-  createElement() {}
-};
+import React from './TinyReact'
 
 const dom = <h1>Ha</h1>
 
