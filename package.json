@@ -1,0 +1,19 @@
+{
+  "name": "tiny-react",
+  "version": "0.0.1",
+  "description": "minimal implementation of react",
+  "main": "index.js",
+  "repository": "git@github.com:iwfan/tiny-react.git",
+  "author": "iwfan <i.wangfancn@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.7"
+  }
+}
