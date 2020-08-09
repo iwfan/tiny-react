@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`React.createElement should render a group of native nodes when given jsx is the following dom 1`] = `
+<div
+  data-testid="wrapper"
+>
+  <h1>
+    Title
+  </h1>
+  <p>
+    paragraph
+  </p>
+  <span>
+    author
+  </span>
+</div>
+`;
